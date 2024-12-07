@@ -14,6 +14,28 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-MyApp-MyAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MyApp-MyAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		7B4CFC3318B045DAA82BC3ED /* Montserrat-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5029BC5A19F248F095287338 /* Montserrat-Italic-VariableFont_wght.ttf */; };
+		917799D03F0F4034BB9D30E5 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBF1698FD7134C988A3246F1 /* Montserrat-VariableFont_wght.ttf */; };
+		A0DF038B6C804D2AA2452E58 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28F831FBDC494B978DAFE0DE /* Montserrat-Black.ttf */; };
+		025170A4E3EE41DAB0DD361A /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE66DEB93EAD4BB7BEAA6308 /* Montserrat-BlackItalic.ttf */; };
+		C13F206A724647B9B32FF45C /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71F42BF6F7684092B0CAAA22 /* Montserrat-Bold.ttf */; };
+		8CA4D6F798BC42849DBE9A2E /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30C448C9B06C4EDE9E6A24BC /* Montserrat-BoldItalic.ttf */; };
+		C5151DA8C079475DA7A8BB17 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18A454549BA14455AA24FEEE /* Montserrat-ExtraBold.ttf */; };
+		CEACEB2861684CFBB6408AF2 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CDD3FC4634D4BEEAC7A5577 /* Montserrat-ExtraBoldItalic.ttf */; };
+		1F1CCCCAC35F49ED9E677B36 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 018359FC5CF24DDBA05BF6DA /* Montserrat-ExtraLight.ttf */; };
+		7D147664C3E14E5CB0135727 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05B14430216C4A84AB2CC8F4 /* Montserrat-ExtraLightItalic.ttf */; };
+		C3A7E9066B6A48CDBA961AC7 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF97E34F3DD742EB83833111 /* Montserrat-Italic.ttf */; };
+		71710BCC03B0481C9CC54032 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E875EFAD34D8415CA75B0D50 /* Montserrat-Light.ttf */; };
+		A693AAC30AD5494CBB652D9C /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB29C8337611481E981BF5B8 /* Montserrat-LightItalic.ttf */; };
+		177FF44AD238465B950178DC /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6D8E105699C4F13A2D5FE89 /* Montserrat-Medium.ttf */; };
+		8B4623B849934A6198F1F773 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3509774F444540EEB78B96FB /* Montserrat-MediumItalic.ttf */; };
+		C0189B9ED8D94C21B2F6E9AE /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3F976B7F6A74AD2B0897195 /* Montserrat-Regular.ttf */; };
+		1CADD3414FC64BA8929C8C57 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C0D8EBF8EAD425DA12A68E6 /* Montserrat-SemiBold.ttf */; };
+		E52F9AE4913D4A08908E93BF /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F639A67541B4EDE8F147379 /* Montserrat-SemiBoldItalic.ttf */; };
+		23886F4478904C80B259E712 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2EB52351EDE421EBEB46BB4 /* Montserrat-Thin.ttf */; };
+		C92306044AEF4D98B8035467 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D741AC9F5614E05AB69B7BA /* Montserrat-ThinItalic.ttf */; };
+		5F81E3B49DF04CF9B72595B7 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = E4F0E4EDFAD2495E9F118DF7 /* OFL.txt */; };
+		87BB1B7D510845708495C00D /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 60BC7865280340DEB30CA238 /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +67,28 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MyApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-MyApp-MyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp-MyAppTests.release.xcconfig"; path = "Target Support Files/Pods-MyApp-MyAppTests/Pods-MyApp-MyAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		5029BC5A19F248F095287338 /* Montserrat-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "Montserrat-Italic-VariableFont_wght.ttf"; path = "../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DBF1698FD7134C988A3246F1 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "Montserrat-VariableFont_wght.ttf"; path = "../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		28F831FBDC494B978DAFE0DE /* Montserrat-Black.ttf */ = {isa = PBXFileReference; name = "Montserrat-Black.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DE66DEB93EAD4BB7BEAA6308 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-BlackItalic.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		71F42BF6F7684092B0CAAA22 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		30C448C9B06C4EDE9E6A24BC /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-BoldItalic.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		18A454549BA14455AA24FEEE /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraBold.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6CDD3FC4634D4BEEAC7A5577 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		018359FC5CF24DDBA05BF6DA /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraLight.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		05B14430216C4A84AB2CC8F4 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraLightItalic.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EF97E34F3DD742EB83833111 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; name = "Montserrat-Italic.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E875EFAD34D8415CA75B0D50 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; name = "Montserrat-Light.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FB29C8337611481E981BF5B8 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-LightItalic.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A6D8E105699C4F13A2D5FE89 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3509774F444540EEB78B96FB /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-MediumItalic.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3F976B7F6A74AD2B0897195 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0C0D8EBF8EAD425DA12A68E6 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; name = "Montserrat-SemiBold.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7F639A67541B4EDE8F147379 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-SemiBoldItalic.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E2EB52351EDE421EBEB46BB4 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; name = "Montserrat-Thin.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4D741AC9F5614E05AB69B7BA /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-ThinItalic.ttf"; path = "../assets/fonts/Montserrat/static/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E4F0E4EDFAD2495E9F118DF7 /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../assets/fonts/Montserrat/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		60BC7865280340DEB30CA238 /* README.txt */ = {isa = PBXFileReference; name = "README.txt"; path = "../assets/fonts/Montserrat/README.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +168,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				945CBEDD1A5A446186440667 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,6 +194,36 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		945CBEDD1A5A446186440667 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				5029BC5A19F248F095287338 /* Montserrat-Italic-VariableFont_wght.ttf */,
+				DBF1698FD7134C988A3246F1 /* Montserrat-VariableFont_wght.ttf */,
+				28F831FBDC494B978DAFE0DE /* Montserrat-Black.ttf */,
+				DE66DEB93EAD4BB7BEAA6308 /* Montserrat-BlackItalic.ttf */,
+				71F42BF6F7684092B0CAAA22 /* Montserrat-Bold.ttf */,
+				30C448C9B06C4EDE9E6A24BC /* Montserrat-BoldItalic.ttf */,
+				18A454549BA14455AA24FEEE /* Montserrat-ExtraBold.ttf */,
+				6CDD3FC4634D4BEEAC7A5577 /* Montserrat-ExtraBoldItalic.ttf */,
+				018359FC5CF24DDBA05BF6DA /* Montserrat-ExtraLight.ttf */,
+				05B14430216C4A84AB2CC8F4 /* Montserrat-ExtraLightItalic.ttf */,
+				EF97E34F3DD742EB83833111 /* Montserrat-Italic.ttf */,
+				E875EFAD34D8415CA75B0D50 /* Montserrat-Light.ttf */,
+				FB29C8337611481E981BF5B8 /* Montserrat-LightItalic.ttf */,
+				A6D8E105699C4F13A2D5FE89 /* Montserrat-Medium.ttf */,
+				3509774F444540EEB78B96FB /* Montserrat-MediumItalic.ttf */,
+				D3F976B7F6A74AD2B0897195 /* Montserrat-Regular.ttf */,
+				0C0D8EBF8EAD425DA12A68E6 /* Montserrat-SemiBold.ttf */,
+				7F639A67541B4EDE8F147379 /* Montserrat-SemiBoldItalic.ttf */,
+				E2EB52351EDE421EBEB46BB4 /* Montserrat-Thin.ttf */,
+				4D741AC9F5614E05AB69B7BA /* Montserrat-ThinItalic.ttf */,
+				E4F0E4EDFAD2495E9F118DF7 /* OFL.txt */,
+				60BC7865280340DEB30CA238 /* README.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -245,6 +320,28 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				7B4CFC3318B045DAA82BC3ED /* Montserrat-Italic-VariableFont_wght.ttf in Resources */,
+				917799D03F0F4034BB9D30E5 /* Montserrat-VariableFont_wght.ttf in Resources */,
+				A0DF038B6C804D2AA2452E58 /* Montserrat-Black.ttf in Resources */,
+				025170A4E3EE41DAB0DD361A /* Montserrat-BlackItalic.ttf in Resources */,
+				C13F206A724647B9B32FF45C /* Montserrat-Bold.ttf in Resources */,
+				8CA4D6F798BC42849DBE9A2E /* Montserrat-BoldItalic.ttf in Resources */,
+				C5151DA8C079475DA7A8BB17 /* Montserrat-ExtraBold.ttf in Resources */,
+				CEACEB2861684CFBB6408AF2 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				1F1CCCCAC35F49ED9E677B36 /* Montserrat-ExtraLight.ttf in Resources */,
+				7D147664C3E14E5CB0135727 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				C3A7E9066B6A48CDBA961AC7 /* Montserrat-Italic.ttf in Resources */,
+				71710BCC03B0481C9CC54032 /* Montserrat-Light.ttf in Resources */,
+				A693AAC30AD5494CBB652D9C /* Montserrat-LightItalic.ttf in Resources */,
+				177FF44AD238465B950178DC /* Montserrat-Medium.ttf in Resources */,
+				8B4623B849934A6198F1F773 /* Montserrat-MediumItalic.ttf in Resources */,
+				C0189B9ED8D94C21B2F6E9AE /* Montserrat-Regular.ttf in Resources */,
+				1CADD3414FC64BA8929C8C57 /* Montserrat-SemiBold.ttf in Resources */,
+				E52F9AE4913D4A08908E93BF /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				23886F4478904C80B259E712 /* Montserrat-Thin.ttf in Resources */,
+				C92306044AEF4D98B8035467 /* Montserrat-ThinItalic.ttf in Resources */,
+				5F81E3B49DF04CF9B72595B7 /* OFL.txt in Resources */,
+				87BB1B7D510845708495C00D /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
