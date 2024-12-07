@@ -2,6 +2,7 @@ import { StyleSheet, Text, View ,Image, ActivityIndicator} from 'react-native'
 import React, { useState,useEffect } from 'react';
 import { useRoute } from '@react-navigation/native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { ScrollView } from 'react-native-gesture-handler';
 
 
 const ProductDetails = () => {
@@ -32,21 +33,28 @@ const ProductDetails = () => {
 
   return (
     <SafeAreaView>
-      <View>
-        <Image source={{ uri: details?.image }} resizeMode="contain" height={350}  width={350}/>
+      <View style={{backgroundColor:'white',alignItems:'center'}}>
+        <Image source={{ uri: details?.image }} resizeMode="contain" height={350}  width={350} />
       </View>
       <View style={styles.textContainer}>
         <Text style={styles.title}>{details.title}</Text>
-        <Text style={styles.price}>{details.price}</Text>
       </View>
       <View style={styles.ratingContainer}>
-        <Text>{details?.rating.rate}</Text>
-        <Text>{details?.rating.count}</Text>
-        <Text>{details?.category}</Text>
+        <View style={{backgroundColor:'green' , flexDirection:'row',alignItems:'center',padding:5,borderRadius:5,height:30,}}>
+          <Text style={{width:30, color:'white',}}>{details?.rating.rate}</Text>
+          <Image source={require('../assets/icons/fill_star.png')} style={{width:15,height:15}}/>
+        </View>
+        <Text style={{margin:5,fontSize:20,color:'grey'}}>{`(${details?.rating.count})`}</Text>
+        <Text style={{fontSize:18,fontWeight:500,backgroundColor:'#FADA7A', borderColor:'#F29F58',borderWidth:3,borderRadius:7,padding:3}}>{details?.category}</Text>
+      </View>
+      <View>
+        <Text style={styles.price}>{`$${details.price}`}</Text>
       </View>
       <View style={styles.descriptionContainer}>
         <Text style={styles.descriptionTitle}>Description</Text>
-        <Text style={styles.descriptionText}>{details.description}</Text>
+        <ScrollView style={{height:150,padding:9}}>
+          <Text style={styles.descriptionText}>{details.description}</Text>
+        </ScrollView>
       </View>
     </SafeAreaView>
   )
@@ -68,27 +76,41 @@ const styles = StyleSheet.create({
     height: 350,
   },
   textContainer: {
+    flexDirection:'row',
     alignItems: 'center',
-    marginBottom: 20,
+    marginBottom: 3,
   },
   title: {
     fontSize: 24,
     fontWeight: 'bold',
+    marginLeft:10,
+    marginTop:10,
+    marginBottom:10
   },
   price: {
+    marginLeft:10,
+    fontWeight:800,
     fontSize: 20,
-    color: 'green',
+    color: 'black',
   },
   ratingContainer: {
-    marginBottom: 20,
+    flexDirection:'row',
+    width:'100%',
+    marginBottom: 5,
+    marginLeft:10,
+    alignItems:'center'
   },
   descriptionContainer: {
-    marginBottom: 20,
+    
   },
   descriptionTitle: {
-    fontWeight: 'bold',
+    fontWeight: 700,
+    marginLeft:10,
+    fontSize:17,
+    marginTop:5
   },
   descriptionText: {
+    margin:10,
     fontSize: 16,
     color: 'gray',
   },

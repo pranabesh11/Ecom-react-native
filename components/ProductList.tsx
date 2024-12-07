@@ -15,9 +15,7 @@ const ProductList = ({ navigation }) => {
       setCategory(data.data);
     };
     fetchData();
-
     fetch('https://fakestoreapi.com/products').then(res=>res.json()).then((data)=>{setAllProduct(data)})
-    // console.log("this is all data",allproduct);
   }, []);
 
   return (
